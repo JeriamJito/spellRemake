@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="BotaoOK">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>440</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>GO!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="edicao">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>learn to write in english</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Copperplate Gothic Bold</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Spell</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="edicao_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>Please, select groups to play</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Participio">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>90</y>
+      <width>104</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Participle</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Expressoes">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>140</y>
+      <width>104</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Expressions</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Sentencas">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>115</y>
+      <width>104</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sentences</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Girias">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>165</y>
+      <width>104</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Slang</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Perguntas">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>190</y>
+      <width>104</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Questions</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Preposicao">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>215</y>
+      <width>104</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Prepositions</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Adverbio">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>239</y>
+      <width>104</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Adverb</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Corpo">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>263</y>
+      <width>104</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Human body</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="AreaFiscal">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>287</y>
+      <width>104</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Area fiscal</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="FalsoCognato">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>295</y>
+      <width>158</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>False Cognate</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Cognatas">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>270</y>
+      <width>158</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cognate</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="SubConcreto">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>319</y>
+      <width>158</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Concrete Subjective</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="SubAbstrato">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>344</y>
+      <width>158</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Abstract Subjective</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Adjetivo">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>369</y>
+      <width>158</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Adjective</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Infinitivo">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>394</y>
+      <width>158</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Infinitive</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Passado">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>419</y>
+      <width>158</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ink Free</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pass</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>810</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
